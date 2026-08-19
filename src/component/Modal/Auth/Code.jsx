@@ -29,7 +29,7 @@ const Code = (props) => {
                         <div className="text-center mb-4">
                             <div className="d-flex align-items-center justify-content-center">
                                 <img src="./../images/radar.png" alt="" />
-                                <span className="semi-bold font__size--18 text__18-1024 ml-2">Trav.id</span>
+                                <span className="semi-bold font__size--18 text__18-1024 ml-2">Wanderly</span>
                             </div>
                             <h4 className="semi-bold font__size--32 text__32-1024 mt-3">Enter your security code</h4>
                             <p className="normal font__size--16 text__16-1024 color__gray-2">We texted your code to tranm••••••••••••@gm•••.com</p>

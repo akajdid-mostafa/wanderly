@@ -26,9 +26,9 @@ const Register = (props) => {
                         <div className="text-center">
                             <div className="d-flex align-items-center justify-content-center">
                                 <img src="./../images/radar.png" alt="" />
-                                <span className="semi-bold font__size--18 text__18-1024 ml-2">Trav.id</span>
+                                <span className="semi-bold font__size--18 text__18-1024 ml-2">Wanderly</span>
                             </div>
-                            <h4 className="semi-bold font__size--32 text__32-1024 mt-3 mb-4">Welcome to Trav.id</h4>
+                            <h4 className="semi-bold font__size--32 text__32-1024 mt-3 mb-4">Welcome to Wanderly</h4>
 
                             <div className="row wrapper__button-auth position-relative z-2">
                                 <div className="col-md-6 mb-4 my-md-auto">

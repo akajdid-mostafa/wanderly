@@ -230,7 +230,7 @@ const RequestToBook = (props) => {
 
                                     <div className="d-inline-block">
                                         <a href="#!" className="color__gray-1">
-                                            <span className="normal font__size--16 text__16-1024 color__gray-2">Your booking is protected by <span className="semi-bold color__black">Trav.id</span></span>
+                                            <span className="normal font__size--16 text__16-1024 color__gray-2">Your booking is protected by <span className="semi-bold color__black">Wanderly</span></span>
                                         </a>
                                     </div>
                                 </div>

@@ -7,43 +7,43 @@ const Faq = (props) => {
     const accordions = [
         {
             title: "How does your company work?",
-            desc: "Trav.id is a community based on connection and belonging. We take the safety of our Hosts and guests very seriously—Hosts must meet and maintain quality standards, and all personal profiles and listings are verified. We work to keep everyone safe on our site and app with encrypted personal data and a trusted payment system. Plus, we have a 24/7 community support team ready to answer any of your questions."
+            desc: "Wanderly is a community based on connection and belonging. We take the safety of our Hosts and guests very seriously—Hosts must meet and maintain quality standards, and all personal profiles and listings are verified. We work to keep everyone safe on our site and app with encrypted personal data and a trusted payment system. Plus, we have a 24/7 community support team ready to answer any of your questions."
         },
         {
             title: "Getting started on Airbnb",
-            desc: "Trav.id is a community based on connection and belonging. We take the safety of our Hosts and guests very seriously—Hosts must meet and maintain quality standards, and all personal profiles and listings are verified. We work to keep everyone safe on our site and app with encrypted personal data and a trusted payment system. Plus, we have a 24/7 community support team ready to answer any of your questions."
+            desc: "Wanderly is a community based on connection and belonging. We take the safety of our Hosts and guests very seriously—Hosts must meet and maintain quality standards, and all personal profiles and listings are verified. We work to keep everyone safe on our site and app with encrypted personal data and a trusted payment system. Plus, we have a 24/7 community support team ready to answer any of your questions."
         },
         {
-            title: "How to book an emergency stay through Trav.id",
-            desc: "Trav.id is a community based on connection and belonging. We take the safety of our Hosts and guests very seriously—Hosts must meet and maintain quality standards, and all personal profiles and listings are verified. We work to keep everyone safe on our site and app with encrypted personal data and a trusted payment system. Plus, we have a 24/7 community support team ready to answer any of your questions."
+            title: "How to book an emergency stay through Wanderly",
+            desc: "Wanderly is a community based on connection and belonging. We take the safety of our Hosts and guests very seriously—Hosts must meet and maintain quality standards, and all personal profiles and listings are verified. We work to keep everyone safe on our site and app with encrypted personal data and a trusted payment system. Plus, we have a 24/7 community support team ready to answer any of your questions."
         },
         {
             title: "How to getting protected through TravCover",
-            desc: "Trav.id is a community based on connection and belonging. We take the safety of our Hosts and guests very seriously—Hosts must meet and maintain quality standards, and all personal profiles and listings are verified. We work to keep everyone safe on our site and app with encrypted personal data and a trusted payment system. Plus, we have a 24/7 community support team ready to answer any of your questions."
+            desc: "Wanderly is a community based on connection and belonging. We take the safety of our Hosts and guests very seriously—Hosts must meet and maintain quality standards, and all personal profiles and listings are verified. We work to keep everyone safe on our site and app with encrypted personal data and a trusted payment system. Plus, we have a 24/7 community support team ready to answer any of your questions."
         },
         {
-            title: "How to paying and communicating through Trav.id",
-            desc: "Trav.id is a community based on connection and belonging. We take the safety of our Hosts and guests very seriously—Hosts must meet and maintain quality standards, and all personal profiles and listings are verified. We work to keep everyone safe on our site and app with encrypted personal data and a trusted payment system. Plus, we have a 24/7 community support team ready to answer any of your questions."
+            title: "How to paying and communicating through Wanderly",
+            desc: "Wanderly is a community based on connection and belonging. We take the safety of our Hosts and guests very seriously—Hosts must meet and maintain quality standards, and all personal profiles and listings are verified. We work to keep everyone safe on our site and app with encrypted personal data and a trusted payment system. Plus, we have a 24/7 community support team ready to answer any of your questions."
         },
         {
             title: "How to Canceling your reservation for a stay",
-            desc: "Trav.id is a community based on connection and belonging. We take the safety of our Hosts and guests very seriously—Hosts must meet and maintain quality standards, and all personal profiles and listings are verified. We work to keep everyone safe on our site and app with encrypted personal data and a trusted payment system. Plus, we have a 24/7 community support team ready to answer any of your questions."
+            desc: "Wanderly is a community based on connection and belonging. We take the safety of our Hosts and guests very seriously—Hosts must meet and maintain quality standards, and all personal profiles and listings are verified. We work to keep everyone safe on our site and app with encrypted personal data and a trusted payment system. Plus, we have a 24/7 community support team ready to answer any of your questions."
         },
         {
             title: "When you’ll pay for your reservation",
-            desc: "Trav.id is a community based on connection and belonging. We take the safety of our Hosts and guests very seriously—Hosts must meet and maintain quality standards, and all personal profiles and listings are verified. We work to keep everyone safe on our site and app with encrypted personal data and a trusted payment system. Plus, we have a 24/7 community support team ready to answer any of your questions."
+            desc: "Wanderly is a community based on connection and belonging. We take the safety of our Hosts and guests very seriously—Hosts must meet and maintain quality standards, and all personal profiles and listings are verified. We work to keep everyone safe on our site and app with encrypted personal data and a trusted payment system. Plus, we have a 24/7 community support team ready to answer any of your questions."
         },
         {
-            title: "How do I report a message or block someone on Trav.id?",
-            desc: "Trav.id is a community based on connection and belonging. We take the safety of our Hosts and guests very seriously—Hosts must meet and maintain quality standards, and all personal profiles and listings are verified. We work to keep everyone safe on our site and app with encrypted personal data and a trusted payment system. Plus, we have a 24/7 community support team ready to answer any of your questions."
+            title: "How do I report a message or block someone on Wanderly?",
+            desc: "Wanderly is a community based on connection and belonging. We take the safety of our Hosts and guests very seriously—Hosts must meet and maintain quality standards, and all personal profiles and listings are verified. We work to keep everyone safe on our site and app with encrypted personal data and a trusted payment system. Plus, we have a 24/7 community support team ready to answer any of your questions."
         },
         {
-            title: "How Trav.id builds trust between Hosts and guests",
-            desc: "Trav.id is a community based on connection and belonging. We take the safety of our Hosts and guests very seriously—Hosts must meet and maintain quality standards, and all personal profiles and listings are verified. We work to keep everyone safe on our site and app with encrypted personal data and a trusted payment system. Plus, we have a 24/7 community support team ready to answer any of your questions."
+            title: "How Wanderly builds trust between Hosts and guests",
+            desc: "Wanderly is a community based on connection and belonging. We take the safety of our Hosts and guests very seriously—Hosts must meet and maintain quality standards, and all personal profiles and listings are verified. We work to keep everyone safe on our site and app with encrypted personal data and a trusted payment system. Plus, we have a 24/7 community support team ready to answer any of your questions."
         },
         {
             title: "How the Resolution Center helps you",
-            desc: "Trav.id is a community based on connection and belonging. We take the safety of our Hosts and guests very seriously—Hosts must meet and maintain quality standards, and all personal profiles and listings are verified. We work to keep everyone safe on our site and app with encrypted personal data and a trusted payment system. Plus, we have a 24/7 community support team ready to answer any of your questions."
+            desc: "Wanderly is a community based on connection and belonging. We take the safety of our Hosts and guests very seriously—Hosts must meet and maintain quality standards, and all personal profiles and listings are verified. We work to keep everyone safe on our site and app with encrypted personal data and a trusted payment system. Plus, we have a 24/7 community support team ready to answer any of your questions."
         },
     ]
     return (

@@ -27,7 +27,7 @@ const Confirm = (props) => {
                         <div className="text-center mb-4">
                             <div className="d-flex align-items-center justify-content-center">
                                 <img src="./../images/radar.png" alt="" />
-                                <span className="semi-bold font__size--18 text__18-1024 ml-2">Trav.id</span>
+                                <span className="semi-bold font__size--18 text__18-1024 ml-2">Wanderly</span>
                             </div>
                             <h4 className="semi-bold font__size--32 text__32-1024 mt-3">Let’s confirm it’s <br /> really you</h4>
                             <p className="normal font__size--16 text__16-1024 color__gray-2">Help us secure your account. Please complete <br className="d-none d-sm-block" /> the verifications below</p>

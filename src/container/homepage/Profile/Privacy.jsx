@@ -57,7 +57,7 @@ const Privacy = (props) => {
                                     <div className="d-flex align-items-center justify-content-between mb-4">
                                         <div className="pr-3">
                                             <h5 className="semi-bold font__size--18 text__18-1024">Data sharing</h5>
-                                            <p className="mb-0 normal font__size--16 text__16-1024 color__gray-2">Decide how your data is used for Trav.id research.</p>
+                                            <p className="mb-0 normal font__size--16 text__16-1024 color__gray-2">Decide how your data is used for Wanderly research.</p>
                                         </div>
                                         <ToogleCheck status={true} />
                                     </div>

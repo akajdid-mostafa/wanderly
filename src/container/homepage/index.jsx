@@ -405,7 +405,7 @@ const Index = (props) => {
               <div className="col-lg-6 my-auto">
                 <h5 className="medium font__size--18 text__18-1024 color__green line__left mb-3">Travel is your friend</h5>
                 <h1 className="semi-bdol font__size--48 text__48-1024 text__48-md text__48-sm">All the best places to travel, curated by you</h1>
-                <p className="normal font__size--16 text__16-1024 color__gray-2 mb-4">Get the most out of your travel experience. At Trav.id, we help you find the best travel deals through our simple and transparent travel booking service. Find cheap flights, last minute trips and hotels from a range of travel brands,</p>
+                <p className="normal font__size--16 text__16-1024 color__gray-2 mb-4">Get the most out of your travel experience. At Wanderly, we help you find the best travel deals through our simple and transparent travel booking service. Find cheap flights, last minute trips and hotels from a range of travel brands,</p>
                 <div className="wrapper__list-archivment d-flex flex-wrap align-items-center">
                   <div className="item mb-4 mb-xl-0 d-flex align-items-center">
                     <div className="d-flex align-items-center">

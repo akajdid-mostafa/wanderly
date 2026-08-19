@@ -36,7 +36,7 @@ const Contact = (props) => {
                                 </div>
                                 <div className="d-flex align-items-center mb-3">
                                     <img src="./../images/Notification - Bell (1).png" alt="" />
-                                    <span className="medium font__size--16 text__16-1024 ml-2">hello@trav.id</span>
+                                    <span className="medium font__size--16 text__16-1024 ml-2">hello@wanderly.com</span>
                                 </div>
                                 <div className="d-flex align-items-center mb-3">
                                     <img src="./../images/Notification - Bell (2).png" alt="" />

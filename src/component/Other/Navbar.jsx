@@ -138,7 +138,7 @@ const Navbar = (props) => {
                 <div className="d-flex align-items-center font__size--18 text__18-1024 semi-bold color__white">
                   <img src="./../images/sdsadsa.png" alt="" />
 
-                  <span className="ml-2">Trav.id</span>
+                  <span className="ml-2">Wanderly</span>
                 </div>
               </NavLink>
               <img src="./../images/close (1).png" onClick={() => setToogleMenu(!toogleMenu)} className="pointer" alt="" />
@@ -182,7 +182,7 @@ const Navbar = (props) => {
               <div className="d-flex align-items-center">
                 <img src="./../images/radar.png" alt="" />
 
-                <span className="ml-2">Trav.id</span>
+                <span className="ml-2">Wanderly</span>
               </div>
             </NavLink>
           </div>

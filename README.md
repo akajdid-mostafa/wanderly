@@ -1,70 +1,130 @@
-# Getting Started with Create React App
+<div align="center">
 
-This project was bootstrapped with [Create React App](https://github.com/facebook/create-react-app).
+# ✈️ Wanderly
 
-## Available Scripts
+**Find and book travel stays, resorts and experiences around the world.**
 
-In the project directory, you can run:
+A modern, fully responsive travel booking platform built with **React** — browse curated destinations, filter stays, manage wishlists and book your next escape.
 
-### `npm start`
+![React](https://img.shields.io/badge/React-18-61DAFB?logo=react&logoColor=white&style=flat-square)
+![Bootstrap](https://img.shields.io/badge/Bootstrap-4-7952B3?logo=bootstrap&logoColor=white&style=flat-square)
+![Sass](https://img.shields.io/badge/Sass-CC6699?logo=sass&logoColor=white&style=flat-square)
+![License](https://img.shields.io/badge/License-MIT-green.svg?style=flat-square)
 
-Runs the app in the development mode.\
-Open [http://localhost:3000](http://localhost:3000) to view it in your browser.
+</div>
 
-The page will reload when you make changes.\
-You may also see any lint errors in the console.
+---
 
-### `npm test`
+## 🌍 About the project
 
-Launches the test runner in the interactive watch mode.\
-See the section about [running tests](https://facebook.github.io/create-react-app/docs/running-tests) for more information.
+Wanderly is a travel booking web application inspired by modern travel platforms (Airbnb / Booking-style UX). It lets users **discover stays, filter trips, view details, request bookings, save to wishlist** and manage travel preferences through a clean dashboard — with a polished, fully responsive UI.
 
-### `npm run build`
+> Landing page · Destination search · Filters · Trip cards · Booking flow · Wishlist · FAQ · Contact · User profile (personal info, security, payments, notifications, privacy)
 
-Builds the app for production to the `build` folder.\
-It correctly bundles React in production mode and optimizes the build for the best performance.
+---
 
-The build is minified and the filenames include the hashes.\
-Your app is ready to be deployed!
+## ✨ Features
 
-See the section about [deployment](https://facebook.github.io/create-react-app/docs/deployment) for more information.
+- 🏝️ **Curated destinations** — popular nearby, islands, surfing, national parks, lake, beach & camping categories
+- 🔎 **Advanced filters** — location, check-in / check-out dates, guests
+- 🃏 **Trip cards** — ratings, dates, prices and images for every stay
+- 🎬 **Interactive media** — video hero with play/pause controls (GSAP-powered feel)
+- ❤️ **Wishlist** — save trips for later
+- 📋 **Request to Book** — protected booking flow with trust messaging
+- 👤 **User profile dashboard** — personal info, login & security, payments, notifications, privacy settings
+- 📧 **Newsletter & FAQ** — subscribe and discover support answers
+- 📱 **Fully responsive** — mobile-first using Bootstrap grid + custom Sass
 
-### `npm run eject`
+---
 
-**Note: this is a one-way operation. Once you `eject`, you can't go back!**
+## 🛠️ Tech stack
 
-If you aren't satisfied with the build tool and configuration choices, you can `eject` at any time. This command will remove the single build dependency from your project.
+| Technology | Purpose |
+| ---------- | ------- |
+| [React](https://reactjs.org/) | UI library & SPA |
+| [React Router](https://reactrouter.com/) | Client-side routing |
+| [Bootstrap 4](https://getbootstrap.com/) + Popper | Layout & components |
+| [Sass](https://sass-lang.com/) | Custom styling |
+| [GSAP](https://greensock.com/gsap/) | Animations |
+| [ApexCharts](https://apexcharts.com/) | Data visualization |
+| [react-datepicker](https://reactdatepicker.com/) | Date picking |
+| [axios](https://axios-http.com/) | HTTP requests |
 
-Instead, it will copy all the configuration files and the transitive dependencies (webpack, Babel, ESLint, etc) right into your project so you have full control over them. All of the commands except `eject` will still work, but they will point to the copied scripts so you can tweak them. At this point you're on your own.
+---
 
-You don't have to ever use `eject`. The curated feature set is suitable for small and middle deployments, and you shouldn't feel obligated to use this feature. However we understand that this tool wouldn't be useful if you couldn't customize it when you are ready for it.
+## 🚀 Getting started
 
-## Learn More
+### Prerequisites
 
-You can learn more in the [Create React App documentation](https://facebook.github.io/create-react-app/docs/getting-started).
+- Node.js ≥ 14
+- npm (or yarn)
 
-To learn React, check out the [React documentation](https://reactjs.org/).
+### Installation
 
-### Code Splitting
+```bash
+# 1. Clone the repository
+git clone https://github.com/akajdid-mostafa/wanderly.git
+cd wanderly
 
-This section has moved here: [https://facebook.github.io/create-react-app/docs/code-splitting](https://facebook.github.io/create-react-app/docs/code-splitting)
+# 2. Install dependencies
+npm install --legacy-peer-deps
 
-### Analyzing the Bundle Size
+# 3. Start the dev server
+npm start
+```
 
-This section has moved here: [https://facebook.github.io/create-react-app/docs/analyzing-the-bundle-size](https://facebook.github.io/create-react-app/docs/analyzing-the-bundle-size)
+Open [http://localhost:3000](http://localhost:3000) to view it in the browser — hot reload is enabled.
 
-### Making a Progressive Web App
+### Scripts
 
-This section has moved here: [https://facebook.github.io/create-react-app/docs/making-a-progressive-web-app](https://facebook.github.io/create-react-app/docs/making-a-progressive-web-app)
+| Command           | Description                     |
+| ----------------- | ------------------------------- |
+| `npm start`       | Run the development server      |
+| `npm run build`   | Build the app for production    |
+| `npm test`        | Run the test suite              |
 
-### Advanced Configuration
+---
 
-This section has moved here: [https://facebook.github.io/create-react-app/docs/advanced-configuration](https://facebook.github.io/create-react-app/docs/advanced-configuration)
+## 📁 Project structure
 
-### Deployment
+```
+src/
+├── assets/                 # Sass, CSS, fonts, scripts
+├── component/
+│   ├── Card/               # Trip cards
+│   ├── Modal/              # Auth modals, filters
+│   └── Other/              # Navbar, Footer, shared components
+└── container/
+    ├── homepage/           # Landing page sections & pages
+    │   └── Profile/        # User dashboard pages
+    └── index.jsx           # App router
+```
 
-This section has moved here: [https://facebook.github.io/create-react-app/docs/deployment](https://facebook.github.io/create-react-app/docs/deployment)
+---
 
-### `npm run build` fails to minify
+## 🔮 Roadmap
 
-This section has moved here: [https://facebook.github.io/create-react-app/docs/troubleshooting#npm-run-build-fails-to-minify](https://facebook.github.io/create-react-app/docs/troubleshooting#npm-run-build-fails-to-minify)
+- [ ] Connect a real backend (REST API) for persistence
+- [ ] Stripe / payment integration for checkout
+- [ ] Host experiences marketplace
+- [ ] Multi-language & i18n support
+
+---
+
+## 👨‍💻 Author
+
+**Mostafa Akajdid** — Frontend Developer
+
+- 🌐 **Portfolio:** [akajdidm.vercel.app](https://akajdidm.vercel.app/)
+- 🐙 **GitHub:** [@akajdid-mostafa](https://github.com/akajdid-mostafa)
+- ✉️ **Email:** hello@wanderly.com
+
+---
+
+<div align="center">
+
+**Made with 💚 by [Mostafa Akajdid](https://akajdidm.vercel.app/)**
+
+⭐ If you like this project, don't forget to leave a star!
+
+</div>

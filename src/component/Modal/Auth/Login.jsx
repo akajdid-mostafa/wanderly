@@ -26,7 +26,7 @@ const Login = (props) => {
                         <div className="text-center mb-4">
                             <div className="d-flex align-items-center justify-content-center">
                                 <img src="./../images/radar.png" alt="" />
-                                <span className="semi-bold font__size--18 text__18-1024 ml-2">Trav.id</span>
+                                <span className="semi-bold font__size--18 text__18-1024 ml-2">Wanderly</span>
                             </div>
                             <h4 className="semi-bold font__size--32 text__32-1024 mt-3">Hey there, welome <br /> back!</h4>
                         </div>

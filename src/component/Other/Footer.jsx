@@ -10,7 +10,7 @@ const Footer = (props) => {
                         <div className="col-md-6 mb-4 my-md-auto text-center text-md-left">
                             <div className="d-flex align-items-center justify-content-md-start justify-content-center mb-3">
                                 <img src="./../images/radar.png" alt="" />
-                                <span className='ml-2 semi-bold font__size--16 text__16-1024'>Trav.id</span>
+                                <span className='ml-2 semi-bold font__size--16 text__16-1024'>Wanderly</span>
                             </div>
                             <p className='normal font__size--16 text__16-1024 color__gray-2'>Looking to travel the world? Here are some <br /> helpful tips to get you started on your trip.</p>
 
