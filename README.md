@@ -117,7 +117,7 @@ src/
 
 - 🌐 **Portfolio:** [akajdidm.vercel.app](https://akajdidm.vercel.app/)
 - 🐙 **GitHub:** [@akajdid-mostafa](https://github.com/akajdid-mostafa)
-- ✉️ **Email:** hello@wanderly.com
+- ✉️ **Email:** mostafaakajdid6@gmail.com
 
 ---
 
